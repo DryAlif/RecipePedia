@@ -1,0 +1,116 @@
+.modal-header {
+  padding: 0.5rem 18px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid $black-color;
+
+  .recipe-title {
+    // position: absolute;
+    // left: 0.5rem;
+    // top: 0rem;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    // font-size: 2rem;
+    // padding-bottom: 1rem;
+  }
+
+  .recipe-close-btn {
+    // position: absolute;
+    // font-family: "Times New Roman", Times, serif;
+    // right: 0.5rem;
+    // top: 0rem;
+    font-family: Garamond, "Apple Garamond";
+    // font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    // font-weight: bold;
+    cursor: pointer;
+    font-size: 2.8rem;
+    background: $dark-orange-color;
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0.9;
+    z-index: 202;
+
+    :hover {
+      color: $light-gray-color;
+      // background-color: $orange-color;
+      border-color: $dark-orange-color;
+    }
+  }
+}
+
+.modal-main {
+  padding: 10px 15px;
+
+  border-bottom: 1px solid $black-color;
+
+  .recipe-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    // border-bottom: 1px solid $black-color;
+  }
+
+  .recipe-meal {
+    width: 50rem;
+    // height: 50%;
+    max-width: 100%;
+    // padding: 8px;
+    height: 100%;
+    border-radius: 0.2rem;
+    // box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.5);
+    // margin: 0 auto;
+    display: block;
+    margin-right: 1rem;
+  }
+
+  .recipe-ingredients {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .recipe-instruct {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .recipe-categories {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .recipe-category {
+    background: $gray-color;
+    font-weight: 600;
+    color: $black-color;
+    display: inline-block;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    text-align: left;
+  }
+}
+
+// .meal-details-content p {
+//   font-size: 1.5rem;
+//   padding: 1rem 0;
+//   text-align: justify;
+// }
+
+.recipe-link a {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  transition: all 0.4s linear;
+}
+
+.linkYt:hover {
+  color: $dark-orange-color;
+}
